@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Starbucks</title>
+
+    <link rel="stylesheet" href="estilos.css" />
+    <link rel="font" href="Santana-Black.ttf" />
+    <link rel="stylesheet" href="font-awesome-4.7.0\font-awesome-4.7.0\css\font-awesome.min.css">
+
+  </head>
+
+  <body>
+    <header>
+      <div id="logo">
+        <div id="logoImage">
+          <a href="index.html">
+            <img src="Imag/logoDEF.png" width="60rem" height="60rem" alt="Go back to start"/>
+          </a>
+        </div>
+        <div id="logoFont">
+          <a href="index.html"> Starbucks </a>
+        </div>
+      </div>
+    </header>
+    <!-- Barra de navegación, fuera del header-->
+    <nav>
+      <ul>
+        <li class="links">
+          <a href="cafe.html">Café</a>
+        </li>
+        <li class="links">
+          <a href="merch.html">Tienda</a>
+        </li>
+        <li class="links">
+          <a href="aboutus.html">About us</a>
+        </li>
+      </ul>
+    </nav>
+    <main>
+      <section class="about">
+        <h3><strong>¿Te apetece un... <i class="fa fa-coffee"></i> ? </strong></h3>
+        <p>Ven a conocernos a tu tienda Starbucks más cercana.</p>
+        <figure id="mapa">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d48592.12599935949!2d-3.720645722680473!3d40.43082452364457!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sStarbucks!5e0!3m2!1ses!2ses!4v1676116238024!5m2!1ses!2ses" width="450rem" height="315rem" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </figure>
+      </section>
+      <section class="about">
+        <h3><strong>¡Te mantenemos al tanto de las novedades!</strong></h4>
+        <p>Rellena nuestro formulario y te enviaremos todas las novedades.</p>
+        <form>
+        <fieldset>
+          <p>
+              <input type="text" id="nombre_id" name="nombre" placeholder="Nombre"><br>
+          </p>
+          <p>
+            <input type="text" id="apellidos_id" name="apellido" placeholder="Apellidos">
+          </p>
+          <p>
+            <input type="email" id="correo_id" name="email" placeholder="Email (ej. nombre@correo.com)">
+          </p>
+          <p>
+            <input type="tel" id="telf_id" name="telf" placeholder="Teléfono (ej. 677 888 999)">
+          </p>
+          <p>¿Sobre qué quieres recibir actualizaciones?</p>
+          <select name="opciones" id="opt">
+            <option value="Todo">Todo</option>
+            <option value="Carta">Carta</option>
+            <option value="Cafés">Cafés</option>
+            <option value="Merchandise">Merchandise</option>
+          </select>
+        </fieldset>
+        <fieldset id="botones">
+            <div id="restablecer">
+              <!-- Botón de reseteo de formulario -->
+              <input class="btn" type="reset" value="Restablecer">
+            </div>
+            <div id="enviar">
+            <!-- Botón de enviar FALSO (reset para eliminar la información una vez enviada)-->
+              <input onClick="alert('¡Enviado!')" class="btn" type="reset" value="Enviar">
+            </div>
+          </fieldset>
+        </fieldset>
+      </form>
+      </section>
+    </main>
+  </body>
+  <footer>
+
+      <div id="deco">
+        <a href="index.html">
+          <img src="Imag/logoDEF.png" width="100rem" height="100rem" alt="Go back to start"/>
+        </a>
+      </div>
+      <div id="summary">
+        <ul>
+          <li><a href="index.html">Bienvenida</a></li>
+          <li><a href="cafe.html">Café</a></li>
+          <li><a href="merch.html">Tienda</a></li>
+          <li><a href="aboutus.html">About us</a></li>
+        </ul>
+      </div>
+
+            <div id="creditos">
+        <i class="fa fa-id-card fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Alba Arias<br>
+        <i class="fa fa-map-marker fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> ICAI, Madrid<br>
+        <i class="fa fa-envelope fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> megusta@elcafe.com<br>
+        <i class="fa fa-phone fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> 999 999 999<br>
+      </div>
+
+  </footer>
+<html>
