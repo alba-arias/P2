@@ -1,7 +1,7 @@
 # README.md
 
 Esta es mi primera página web usando HTML, CSS y un poco de JS. <br>
-El enlace es: https://alba-arias.github.io/P2/index.html
+El enlace es: https://alba-arias.github.io/P2/ <br>
 La página web trata sobre Starbucks y cubre los siguientes temas: <br>
 * Introducción
 * Tipos de cafés
